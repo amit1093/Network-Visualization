@@ -1,0 +1,3004 @@
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "state": {
+        "8883028411ae4ec9affeabdb26120cb9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.1.0",
+            "state": {}
+        },
+        "b4d7caf32e8544d09745453d8f777f71": {
+            "model_name": "TooltipModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "fields": [
+                    "label",
+                    "media"
+                ],
+                "layout": "IPY_MODEL_8883028411ae4ec9affeabdb26120cb9"
+            }
+        },
+        "deb239de2bc84d2287a7dea9c5b1754a": {
+            "model_name": "GraphModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module": "bqplot",
+                "_model_module_version": "^0.4.1",
+                "_view_count": null,
+                "_view_module": "bqplot",
+                "_view_module_version": "^0.4.1",
+                "apply_clip": true,
+                "charge": -600,
+                "color": {
+                    "values": null,
+                    "type": null
+                },
+                "colors": [
+                    "#1f77b4",
+                    "#ff7f0e",
+                    "#2ca02c",
+                    "#d62728",
+                    "#9467bd",
+                    "#8c564b",
+                    "#e377c2",
+                    "#7f7f7f",
+                    "#bcbd22",
+                    "#17becf"
+                ],
+                "directed": true,
+                "display_legend": false,
+                "enable_hover": true,
+                "highlight_links": true,
+                "hovered_style": {},
+                "interactions": {
+                    "hover": "tooltip",
+                    "click": "select"
+                },
+                "labels": [],
+                "link_color": {
+                    "values": [],
+                    "type": "float"
+                },
+                "link_data": [
+                    {
+                        "source": {
+                            "label": "Luke Skywalker",
+                            "media": "Star Wars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 0,
+                            "weight": 2,
+                            "x": 345.22284898821044,
+                            "y": 160.7522384533842,
+                            "px": 345.2082327322669,
+                            "py": 160.79789503694798
+                        },
+                        "target": {
+                            "label": "Jean-Luc Picard",
+                            "media": "Star Trek",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 1,
+                            "weight": 1,
+                            "x": 399.01215946930756,
+                            "y": 249.51945680889006,
+                            "px": 398.9644396078996,
+                            "py": 249.50340460219644
+                        },
+                        "value": 10
+                    },
+                    {
+                        "source": {
+                            "label": "Luke Skywalker",
+                            "media": "Star Wars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 0,
+                            "weight": 2,
+                            "x": 345.22284898821044,
+                            "y": 160.7522384533842,
+                            "px": 345.2082327322669,
+                            "py": 160.79789503694798
+                        },
+                        "target": {
+                            "label": "Pikachu",
+                            "media": "detective",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 1,
+                            "x": 249.92830209944108,
+                            "y": 201.90136819828064,
+                            "px": 249.97599396341698,
+                            "py": 201.91489257452076
+                        },
+                        "value": 100
+                    }
+                ],
+                "link_distance": 100,
+                "link_matrix": {
+                    "values": [],
+                    "type": "float"
+                },
+                "link_type": "arc",
+                "node_data": [
+                    {
+                        "label": "Luke Skywalker",
+                        "media": "Star Wars",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 0,
+                        "weight": 2,
+                        "x": 345.22284898821044,
+                        "y": 160.7522384533842,
+                        "px": 345.2082327322669,
+                        "py": 160.79789503694798
+                    },
+                    {
+                        "label": "Jean-Luc Picard",
+                        "media": "Star Trek",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 1,
+                        "weight": 1,
+                        "x": 399.01215946930756,
+                        "y": 249.51945680889006,
+                        "px": 398.9644396078996,
+                        "py": 249.50340460219644
+                    },
+                    {
+                        "label": "Doctor Who",
+                        "media": "Doctor Who",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 2,
+                        "weight": 0,
+                        "x": 290.96353309428343,
+                        "y": 331.68144769710017,
+                        "px": 290.97841698971666,
+                        "py": 331.63666251866897
+                    },
+                    {
+                        "label": "Pikachu",
+                        "media": "detective",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 3,
+                        "weight": 1,
+                        "x": 249.92830209944108,
+                        "y": 201.90136819828064,
+                        "px": 249.97599396341698,
+                        "py": 201.91489257452076
+                    }
+                ],
+                "preserve_domain": {},
+                "scales": {},
+                "scales_metadata": {
+                    "x": {
+                        "orientation": "horizontal",
+                        "dimension": "x"
+                    },
+                    "y": {
+                        "orientation": "vertical",
+                        "dimension": "y"
+                    },
+                    "color": {
+                        "dimension": "color"
+                    },
+                    "link_color": {
+                        "dimension": "link_color"
+                    }
+                },
+                "selected": [],
+                "selected_style": {},
+                "tooltip": "IPY_MODEL_b4d7caf32e8544d09745453d8f777f71",
+                "tooltip_location": "mouse",
+                "tooltip_style": {
+                    "opacity": 0.9
+                },
+                "unhovered_style": {},
+                "unselected_style": {},
+                "visible": true,
+                "x": {
+                    "values": [],
+                    "type": "float"
+                },
+                "y": {
+                    "values": [],
+                    "type": "float"
+                }
+            }
+        },
+        "bb2b8e6c7cb248f9a336d022e2e8052e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.1.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "67ce394fbf3d40f287599d4c8dc34eaf": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "abb60ab140664e3fba4462c81e6d3adc": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "97ce65fe86834aef8c87d8254449daf3": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_dom_classes": [],
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "layout": "IPY_MODEL_bb2b8e6c7cb248f9a336d022e2e8052e",
+                "marks": [
+                    "IPY_MODEL_deb239de2bc84d2287a7dea9c5b1754a"
+                ],
+                "scale_x": "IPY_MODEL_67ce394fbf3d40f287599d4c8dc34eaf",
+                "scale_y": "IPY_MODEL_abb60ab140664e3fba4462c81e6d3adc"
+            }
+        },
+        "6f8631023fc546fdbd2827202565c7df": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.1.0",
+            "state": {}
+        },
+        "0c0ed100332c4f6aa63cb50133e48a72": {
+            "model_name": "TooltipModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "fields": [
+                    "media",
+                    "label"
+                ],
+                "layout": "IPY_MODEL_6f8631023fc546fdbd2827202565c7df"
+            }
+        },
+        "40851ed1c37c4fcfadd6e72f89ddfb0b": {
+            "model_name": "GraphModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module": "bqplot",
+                "_model_module_version": "^0.4.1",
+                "_view_count": null,
+                "_view_module": "bqplot",
+                "_view_module_version": "^0.4.1",
+                "apply_clip": true,
+                "charge": -600,
+                "color": {
+                    "values": null,
+                    "type": null
+                },
+                "colors": [
+                    "#1f77b4",
+                    "#ff7f0e",
+                    "#2ca02c",
+                    "#d62728",
+                    "#9467bd",
+                    "#8c564b",
+                    "#e377c2",
+                    "#7f7f7f",
+                    "#bcbd22",
+                    "#17becf"
+                ],
+                "directed": true,
+                "display_legend": false,
+                "enable_hover": true,
+                "highlight_links": true,
+                "hovered_style": {},
+                "interactions": {
+                    "hover": "tooltip",
+                    "click": "select"
+                },
+                "labels": [],
+                "link_color": {
+                    "values": [],
+                    "type": "float"
+                },
+                "link_data": [
+                    {
+                        "source": {
+                            "media": "A New Hope",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 0,
+                            "weight": 4,
+                            "x": 503.895134347733,
+                            "y": 144.42045641958077,
+                            "px": 503.811844544378,
+                            "py": 144.46811048643875
+                        },
+                        "target": {
+                            "media": "A New Hope",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 1,
+                            "weight": 4,
+                            "x": 529.2710243349416,
+                            "y": 46.30818978740235,
+                            "px": 529.1596908842916,
+                            "py": 46.42455349650626
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "A New Hope",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 0,
+                            "weight": 4,
+                            "x": 503.895134347733,
+                            "y": 144.42045641958077,
+                            "px": 503.811844544378,
+                            "py": 144.46811048643875
+                        },
+                        "target": {
+                            "media": "A New Hope",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 2,
+                            "weight": 4,
+                            "x": 601.5069716067123,
+                            "y": 121.06974321087824,
+                            "px": 601.3488653188002,
+                            "py": 121.09695263670964
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "A New Hope",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 1,
+                            "weight": 4,
+                            "x": 529.2710243349416,
+                            "y": 46.30818978740235,
+                            "px": 529.1596908842916,
+                            "py": 46.42455349650626
+                        },
+                        "target": {
+                            "media": "A New Hope",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 0,
+                            "weight": 4,
+                            "x": 503.895134347733,
+                            "y": 144.42045641958077,
+                            "px": 503.811844544378,
+                            "py": 144.46811048643875
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "A New Hope",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 1,
+                            "weight": 4,
+                            "x": 529.2710243349416,
+                            "y": 46.30818978740235,
+                            "px": 529.1596908842916,
+                            "py": 46.42455349650626
+                        },
+                        "target": {
+                            "media": "A New Hope",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 2,
+                            "weight": 4,
+                            "x": 601.5069716067123,
+                            "y": 121.06974321087824,
+                            "px": 601.3488653188002,
+                            "py": 121.09695263670964
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "A New Hope",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 2,
+                            "weight": 4,
+                            "x": 601.5069716067123,
+                            "y": 121.06974321087824,
+                            "px": 601.3488653188002,
+                            "py": 121.09695263670964
+                        },
+                        "target": {
+                            "media": "A New Hope",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 0,
+                            "weight": 4,
+                            "x": 503.895134347733,
+                            "y": 144.42045641958077,
+                            "px": 503.811844544378,
+                            "py": 144.46811048643875
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "A New Hope",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 2,
+                            "weight": 4,
+                            "x": 601.5069716067123,
+                            "y": 121.06974321087824,
+                            "px": 601.3488653188002,
+                            "py": 121.09695263670964
+                        },
+                        "target": {
+                            "media": "A New Hope",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 1,
+                            "weight": 4,
+                            "x": 529.2710243349416,
+                            "y": 46.30818978740235,
+                            "px": 529.1596908842916,
+                            "py": 46.42455349650626
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 6,
+                            "x": 360.7220890762023,
+                            "y": 4.4708285937818095,
+                            "px": 360.6774420025891,
+                            "py": 4.605554765327728
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 4,
+                            "weight": 6,
+                            "x": 238.10587692052616,
+                            "y": 28.54105989822515,
+                            "px": 238.19434198492135,
+                            "py": 28.641936484359352
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 6,
+                            "x": 360.7220890762023,
+                            "y": 4.4708285937818095,
+                            "px": 360.6774420025891,
+                            "py": 4.605554765327728
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 5,
+                            "weight": 6,
+                            "x": 287.2788086321788,
+                            "y": -43.57149751360946,
+                            "px": 287.31969415803235,
+                            "py": -43.39766985483016
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 6,
+                            "x": 360.7220890762023,
+                            "y": 4.4708285937818095,
+                            "px": 360.6774420025891,
+                            "py": 4.605554765327728
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 6,
+                            "weight": 6,
+                            "x": 311.3494755551431,
+                            "y": 77.4499257123105,
+                            "px": 311.35500443613023,
+                            "py": 77.50438898748945
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 4,
+                            "weight": 6,
+                            "x": 238.10587692052616,
+                            "y": 28.54105989822515,
+                            "px": 238.19434198492135,
+                            "py": 28.641936484359352
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 6,
+                            "x": 360.7220890762023,
+                            "y": 4.4708285937818095,
+                            "px": 360.6774420025891,
+                            "py": 4.605554765327728
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 4,
+                            "weight": 6,
+                            "x": 238.10587692052616,
+                            "y": 28.54105989822515,
+                            "px": 238.19434198492135,
+                            "py": 28.641936484359352
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 5,
+                            "weight": 6,
+                            "x": 287.2788086321788,
+                            "y": -43.57149751360946,
+                            "px": 287.31969415803235,
+                            "py": -43.39766985483016
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 4,
+                            "weight": 6,
+                            "x": 238.10587692052616,
+                            "y": 28.54105989822515,
+                            "px": 238.19434198492135,
+                            "py": 28.641936484359352
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 6,
+                            "weight": 6,
+                            "x": 311.3494755551431,
+                            "y": 77.4499257123105,
+                            "px": 311.35500443613023,
+                            "py": 77.50438898748945
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 5,
+                            "weight": 6,
+                            "x": 287.2788086321788,
+                            "y": -43.57149751360946,
+                            "px": 287.31969415803235,
+                            "py": -43.39766985483016
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 6,
+                            "x": 360.7220890762023,
+                            "y": 4.4708285937818095,
+                            "px": 360.6774420025891,
+                            "py": 4.605554765327728
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 5,
+                            "weight": 6,
+                            "x": 287.2788086321788,
+                            "y": -43.57149751360946,
+                            "px": 287.31969415803235,
+                            "py": -43.39766985483016
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 4,
+                            "weight": 6,
+                            "x": 238.10587692052616,
+                            "y": 28.54105989822515,
+                            "px": 238.19434198492135,
+                            "py": 28.641936484359352
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 5,
+                            "weight": 6,
+                            "x": 287.2788086321788,
+                            "y": -43.57149751360946,
+                            "px": 287.31969415803235,
+                            "py": -43.39766985483016
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 6,
+                            "weight": 6,
+                            "x": 311.3494755551431,
+                            "y": 77.4499257123105,
+                            "px": 311.35500443613023,
+                            "py": 77.50438898748945
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 6,
+                            "weight": 6,
+                            "x": 311.3494755551431,
+                            "y": 77.4499257123105,
+                            "px": 311.35500443613023,
+                            "py": 77.50438898748945
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 3,
+                            "weight": 6,
+                            "x": 360.7220890762023,
+                            "y": 4.4708285937818095,
+                            "px": 360.6774420025891,
+                            "py": 4.605554765327728
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 6,
+                            "weight": 6,
+                            "x": 311.3494755551431,
+                            "y": 77.4499257123105,
+                            "px": 311.35500443613023,
+                            "py": 77.50438898748945
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 4,
+                            "weight": 6,
+                            "x": 238.10587692052616,
+                            "y": 28.54105989822515,
+                            "px": 238.19434198492135,
+                            "py": 28.641936484359352
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 6,
+                            "weight": 6,
+                            "x": 311.3494755551431,
+                            "y": 77.4499257123105,
+                            "px": 311.35500443613023,
+                            "py": 77.50438898748945
+                        },
+                        "target": {
+                            "media": "The Empire Strikes Back",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 5,
+                            "weight": 6,
+                            "x": 287.2788086321788,
+                            "y": -43.57149751360946,
+                            "px": 287.31969415803235,
+                            "py": -43.39766985483016
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 7,
+                            "weight": 8,
+                            "x": 454.1003426829365,
+                            "y": 264.24092990774994,
+                            "px": 453.97724916219977,
+                            "py": 264.2763701799447
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 8,
+                            "weight": 8,
+                            "x": 382.1277133091688,
+                            "y": 242.27355033154305,
+                            "px": 382.112571875138,
+                            "py": 242.33907076127255,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 9,
+                            "weight": 8,
+                            "x": 339.53232618179544,
+                            "y": 303.0106814576494,
+                            "px": 339.57106432243614,
+                            "py": 303.0003634910328
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Return of the Jedi",
+                            "label": "Mon Mothma",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 11,
+                            "weight": 8,
+                            "x": 455.14497702236844,
+                            "y": 339.3102069363105,
+                            "px": 455.0241082051867,
+                            "py": 339.2390663337617
+                        },
+                        "target": {
+                            "media": "Return of the Jedi",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 10,
+                            "weight": 8,
+                            "x": 383.2274595425336,
+                            "y": 364.159183518195,
+                            "px": 383.2176316935825,
+                            "py": 364.05305776278067
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Phantom Menace",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 12,
+                            "weight": 2,
+                            "x": 491.37233593244844,
+                            "y": 488.328998477488,
+                            "px": 491.32279660376935,
+                            "py": 488.182368595882
+                        },
+                        "target": {
+                            "media": "The Phantom Menace",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 13,
+                            "weight": 2,
+                            "x": 567.0863140078916,
+                            "y": 416.63873983582175,
+                            "px": 566.9580883774814,
+                            "py": 416.5460102164109
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "The Phantom Menace",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 13,
+                            "weight": 2,
+                            "x": 567.0863140078916,
+                            "y": 416.63873983582175,
+                            "px": 566.9580883774814,
+                            "py": 416.5460102164109
+                        },
+                        "target": {
+                            "media": "The Phantom Menace",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 12,
+                            "weight": 2,
+                            "x": 491.37233593244844,
+                            "y": 488.328998477488,
+                            "px": 491.32279660376935,
+                            "py": 488.182368595882
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 14,
+                            "weight": 6,
+                            "x": 164.0414901638621,
+                            "y": 178.4071028492302,
+                            "px": 164.08677424140524,
+                            "py": 178.40916197017404,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 15,
+                            "weight": 6,
+                            "x": 40.5318014389395,
+                            "y": 177.71713271432333,
+                            "px": 40.700913210238866,
+                            "py": 177.73969430669234
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 14,
+                            "weight": 6,
+                            "x": 164.0414901638621,
+                            "y": 178.4071028492302,
+                            "px": 164.08677424140524,
+                            "py": 178.40916197017404,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 16,
+                            "weight": 6,
+                            "x": 102.2981647863645,
+                            "y": 115.04486293567554,
+                            "px": 102.39834543527233,
+                            "py": 115.13123371700848
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 14,
+                            "weight": 6,
+                            "x": 164.0414901638621,
+                            "y": 178.4071028492302,
+                            "px": 164.08677424140524,
+                            "py": 178.40916197017404,
+                            "fixed": 0
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 17,
+                            "weight": 6,
+                            "x": 101.63244012995852,
+                            "y": 239.97576918855938,
+                            "px": 101.75203197677466,
+                            "py": 239.92335671331855
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 15,
+                            "weight": 6,
+                            "x": 40.5318014389395,
+                            "y": 177.71713271432333,
+                            "px": 40.700913210238866,
+                            "py": 177.73969430669234
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 14,
+                            "weight": 6,
+                            "x": 164.0414901638621,
+                            "y": 178.4071028492302,
+                            "px": 164.08677424140524,
+                            "py": 178.40916197017404,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 15,
+                            "weight": 6,
+                            "x": 40.5318014389395,
+                            "y": 177.71713271432333,
+                            "px": 40.700913210238866,
+                            "py": 177.73969430669234
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 16,
+                            "weight": 6,
+                            "x": 102.2981647863645,
+                            "y": 115.04486293567554,
+                            "px": 102.39834543527233,
+                            "py": 115.13123371700848
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 15,
+                            "weight": 6,
+                            "x": 40.5318014389395,
+                            "y": 177.71713271432333,
+                            "px": 40.700913210238866,
+                            "py": 177.73969430669234
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 17,
+                            "weight": 6,
+                            "x": 101.63244012995852,
+                            "y": 239.97576918855938,
+                            "px": 101.75203197677466,
+                            "py": 239.92335671331855
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 16,
+                            "weight": 6,
+                            "x": 102.2981647863645,
+                            "y": 115.04486293567554,
+                            "px": 102.39834543527233,
+                            "py": 115.13123371700848
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 14,
+                            "weight": 6,
+                            "x": 164.0414901638621,
+                            "y": 178.4071028492302,
+                            "px": 164.08677424140524,
+                            "py": 178.40916197017404,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 16,
+                            "weight": 6,
+                            "x": 102.2981647863645,
+                            "y": 115.04486293567554,
+                            "px": 102.39834543527233,
+                            "py": 115.13123371700848
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 15,
+                            "weight": 6,
+                            "x": 40.5318014389395,
+                            "y": 177.71713271432333,
+                            "px": 40.700913210238866,
+                            "py": 177.73969430669234
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 16,
+                            "weight": 6,
+                            "x": 102.2981647863645,
+                            "y": 115.04486293567554,
+                            "px": 102.39834543527233,
+                            "py": 115.13123371700848
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 17,
+                            "weight": 6,
+                            "x": 101.63244012995852,
+                            "y": 239.97576918855938,
+                            "px": 101.75203197677466,
+                            "py": 239.92335671331855
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 17,
+                            "weight": 6,
+                            "x": 101.63244012995852,
+                            "y": 239.97576918855938,
+                            "px": 101.75203197677466,
+                            "py": 239.92335671331855
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 14,
+                            "weight": 6,
+                            "x": 164.0414901638621,
+                            "y": 178.4071028492302,
+                            "px": 164.08677424140524,
+                            "py": 178.40916197017404,
+                            "fixed": 0
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 17,
+                            "weight": 6,
+                            "x": 101.63244012995852,
+                            "y": 239.97576918855938,
+                            "px": 101.75203197677466,
+                            "py": 239.92335671331855
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 15,
+                            "weight": 6,
+                            "x": 40.5318014389395,
+                            "y": 177.71713271432333,
+                            "px": 40.700913210238866,
+                            "py": 177.73969430669234
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Attack of the Clones",
+                            "label": "Boba Fett",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 17,
+                            "weight": 6,
+                            "x": 101.63244012995852,
+                            "y": 239.97576918855938,
+                            "px": 101.75203197677466,
+                            "py": 239.92335671331855
+                        },
+                        "target": {
+                            "media": "Attack of the Clones",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 16,
+                            "weight": 6,
+                            "x": 102.2981647863645,
+                            "y": 115.04486293567554,
+                            "px": 102.39834543527233,
+                            "py": 115.13123371700848
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 18,
+                            "weight": 6,
+                            "x": 122.90870358669986,
+                            "y": 419.39826666003256,
+                            "px": 123.02930147788759,
+                            "py": 419.33465628500204
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 19,
+                            "weight": 6,
+                            "x": 202.97975964517016,
+                            "y": 384.2706700784437,
+                            "px": 203.00747339218833,
+                            "py": 384.2180049566348
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 18,
+                            "weight": 6,
+                            "x": 122.90870358669986,
+                            "y": 419.39826666003256,
+                            "px": 123.02930147788759,
+                            "py": 419.33465628500204
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 20,
+                            "weight": 6,
+                            "x": 160.04959706066631,
+                            "y": 499.1482863794011,
+                            "px": 160.13707462865915,
+                            "py": 498.9922860474656
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 18,
+                            "weight": 6,
+                            "x": 122.90870358669986,
+                            "y": 419.39826666003256,
+                            "px": 123.02930147788759,
+                            "py": 419.33465628500204
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 21,
+                            "weight": 6,
+                            "x": 240.2786301856435,
+                            "y": 465.2300258605685,
+                            "px": 240.2741134713786,
+                            "py": 465.07518118510086
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 19,
+                            "weight": 6,
+                            "x": 202.97975964517016,
+                            "y": 384.2706700784437,
+                            "px": 203.00747339218833,
+                            "py": 384.2180049566348
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 18,
+                            "weight": 6,
+                            "x": 122.90870358669986,
+                            "y": 419.39826666003256,
+                            "px": 123.02930147788759,
+                            "py": 419.33465628500204
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 19,
+                            "weight": 6,
+                            "x": 202.97975964517016,
+                            "y": 384.2706700784437,
+                            "px": 203.00747339218833,
+                            "py": 384.2180049566348
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 20,
+                            "weight": 6,
+                            "x": 160.04959706066631,
+                            "y": 499.1482863794011,
+                            "px": 160.13707462865915,
+                            "py": 498.9922860474656
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 19,
+                            "weight": 6,
+                            "x": 202.97975964517016,
+                            "y": 384.2706700784437,
+                            "px": 203.00747339218833,
+                            "py": 384.2180049566348
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 21,
+                            "weight": 6,
+                            "x": 240.2786301856435,
+                            "y": 465.2300258605685,
+                            "px": 240.2741134713786,
+                            "py": 465.07518118510086
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 20,
+                            "weight": 6,
+                            "x": 160.04959706066631,
+                            "y": 499.1482863794011,
+                            "px": 160.13707462865915,
+                            "py": 498.9922860474656
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 18,
+                            "weight": 6,
+                            "x": 122.90870358669986,
+                            "y": 419.39826666003256,
+                            "px": 123.02930147788759,
+                            "py": 419.33465628500204
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 20,
+                            "weight": 6,
+                            "x": 160.04959706066631,
+                            "y": 499.1482863794011,
+                            "px": 160.13707462865915,
+                            "py": 498.9922860474656
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 19,
+                            "weight": 6,
+                            "x": 202.97975964517016,
+                            "y": 384.2706700784437,
+                            "px": 203.00747339218833,
+                            "py": 384.2180049566348
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 20,
+                            "weight": 6,
+                            "x": 160.04959706066631,
+                            "y": 499.1482863794011,
+                            "px": 160.13707462865915,
+                            "py": 498.9922860474656
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 21,
+                            "weight": 6,
+                            "x": 240.2786301856435,
+                            "y": 465.2300258605685,
+                            "px": 240.2741134713786,
+                            "py": 465.07518118510086
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 21,
+                            "weight": 6,
+                            "x": 240.2786301856435,
+                            "y": 465.2300258605685,
+                            "px": 240.2741134713786,
+                            "py": 465.07518118510086
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Darth Vader",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 18,
+                            "weight": 6,
+                            "x": 122.90870358669986,
+                            "y": 419.39826666003256,
+                            "px": 123.02930147788759,
+                            "py": 419.33465628500204
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 21,
+                            "weight": 6,
+                            "x": 240.2786301856435,
+                            "y": 465.2300258605685,
+                            "px": 240.2741134713786,
+                            "py": 465.07518118510086
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Beru Whitesun lars",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 19,
+                            "weight": 6,
+                            "x": 202.97975964517016,
+                            "y": 384.2706700784437,
+                            "px": 203.00747339218833,
+                            "py": 384.2180049566348
+                        }
+                    },
+                    {
+                        "source": {
+                            "media": "Revenge of the Sith",
+                            "label": "Yoda",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 21,
+                            "weight": 6,
+                            "x": 240.2786301856435,
+                            "y": 465.2300258605685,
+                            "px": 240.2741134713786,
+                            "py": 465.07518118510086
+                        },
+                        "target": {
+                            "media": "Revenge of the Sith",
+                            "label": "Obi-Wan Kenobi",
+                            "label_display": "center",
+                            "shape": "circle",
+                            "shape_attrs": {
+                                "r": 15
+                            },
+                            "value": null,
+                            "index": 20,
+                            "weight": 6,
+                            "x": 160.04959706066631,
+                            "y": 499.1482863794011,
+                            "px": 160.13707462865915,
+                            "py": 498.9922860474656
+                        }
+                    }
+                ],
+                "link_distance": 100,
+                "link_matrix": {
+                    "values": [],
+                    "type": "float"
+                },
+                "link_type": "arc",
+                "node_data": [
+                    {
+                        "media": "A New Hope",
+                        "label": "Darth Vader",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 0,
+                        "weight": 4,
+                        "x": 503.895134347733,
+                        "y": 144.42045641958077,
+                        "px": 503.811844544378,
+                        "py": 144.46811048643875
+                    },
+                    {
+                        "media": "A New Hope",
+                        "label": "Beru Whitesun lars",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 1,
+                        "weight": 4,
+                        "x": 529.2710243349416,
+                        "y": 46.30818978740235,
+                        "px": 529.1596908842916,
+                        "py": 46.42455349650626
+                    },
+                    {
+                        "media": "A New Hope",
+                        "label": "Obi-Wan Kenobi",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 2,
+                        "weight": 4,
+                        "x": 601.5069716067123,
+                        "y": 121.06974321087824,
+                        "px": 601.3488653188002,
+                        "py": 121.09695263670964
+                    },
+                    {
+                        "media": "The Empire Strikes Back",
+                        "label": "Darth Vader",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 3,
+                        "weight": 6,
+                        "x": 360.7220890762023,
+                        "y": 4.4708285937818095,
+                        "px": 360.6774420025891,
+                        "py": 4.605554765327728
+                    },
+                    {
+                        "media": "The Empire Strikes Back",
+                        "label": "Obi-Wan Kenobi",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 4,
+                        "weight": 6,
+                        "x": 238.10587692052616,
+                        "y": 28.54105989822515,
+                        "px": 238.19434198492135,
+                        "py": 28.641936484359352
+                    },
+                    {
+                        "media": "The Empire Strikes Back",
+                        "label": "Yoda",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 5,
+                        "weight": 6,
+                        "x": 287.2788086321788,
+                        "y": -43.57149751360946,
+                        "px": 287.31969415803235,
+                        "py": -43.39766985483016
+                    },
+                    {
+                        "media": "The Empire Strikes Back",
+                        "label": "Boba Fett",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 6,
+                        "weight": 6,
+                        "x": 311.3494755551431,
+                        "y": 77.4499257123105,
+                        "px": 311.35500443613023,
+                        "py": 77.50438898748945
+                    },
+                    {
+                        "media": "Return of the Jedi",
+                        "label": "Darth Vader",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 7,
+                        "weight": 8,
+                        "x": 454.1003426829365,
+                        "y": 264.24092990774994,
+                        "px": 453.97724916219977,
+                        "py": 264.2763701799447
+                    },
+                    {
+                        "media": "Return of the Jedi",
+                        "label": "Obi-Wan Kenobi",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 8,
+                        "weight": 8,
+                        "x": 382.1277133091688,
+                        "y": 242.27355033154305,
+                        "px": 382.112571875138,
+                        "py": 242.33907076127255,
+                        "fixed": 0
+                    },
+                    {
+                        "media": "Return of the Jedi",
+                        "label": "Yoda",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 9,
+                        "weight": 8,
+                        "x": 339.53232618179544,
+                        "y": 303.0106814576494,
+                        "px": 339.57106432243614,
+                        "py": 303.0003634910328
+                    },
+                    {
+                        "media": "Return of the Jedi",
+                        "label": "Boba Fett",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 10,
+                        "weight": 8,
+                        "x": 383.2274595425336,
+                        "y": 364.159183518195,
+                        "px": 383.2176316935825,
+                        "py": 364.05305776278067
+                    },
+                    {
+                        "media": "Return of the Jedi",
+                        "label": "Mon Mothma",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 11,
+                        "weight": 8,
+                        "x": 455.14497702236844,
+                        "y": 339.3102069363105,
+                        "px": 455.0241082051867,
+                        "py": 339.2390663337617
+                    },
+                    {
+                        "media": "The Phantom Menace",
+                        "label": "Obi-Wan Kenobi",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 12,
+                        "weight": 2,
+                        "x": 491.37233593244844,
+                        "y": 488.328998477488,
+                        "px": 491.32279660376935,
+                        "py": 488.182368595882
+                    },
+                    {
+                        "media": "The Phantom Menace",
+                        "label": "Yoda",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 13,
+                        "weight": 2,
+                        "x": 567.0863140078916,
+                        "y": 416.63873983582175,
+                        "px": 566.9580883774814,
+                        "py": 416.5460102164109
+                    },
+                    {
+                        "media": "Attack of the Clones",
+                        "label": "Beru Whitesun lars",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 14,
+                        "weight": 6,
+                        "x": 164.0414901638621,
+                        "y": 178.4071028492302,
+                        "px": 164.08677424140524,
+                        "py": 178.40916197017404,
+                        "fixed": 0
+                    },
+                    {
+                        "media": "Attack of the Clones",
+                        "label": "Obi-Wan Kenobi",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 15,
+                        "weight": 6,
+                        "x": 40.5318014389395,
+                        "y": 177.71713271432333,
+                        "px": 40.700913210238866,
+                        "py": 177.73969430669234
+                    },
+                    {
+                        "media": "Attack of the Clones",
+                        "label": "Yoda",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 16,
+                        "weight": 6,
+                        "x": 102.2981647863645,
+                        "y": 115.04486293567554,
+                        "px": 102.39834543527233,
+                        "py": 115.13123371700848
+                    },
+                    {
+                        "media": "Attack of the Clones",
+                        "label": "Boba Fett",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 17,
+                        "weight": 6,
+                        "x": 101.63244012995852,
+                        "y": 239.97576918855938,
+                        "px": 101.75203197677466,
+                        "py": 239.92335671331855
+                    },
+                    {
+                        "media": "Revenge of the Sith",
+                        "label": "Darth Vader",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 18,
+                        "weight": 6,
+                        "x": 122.90870358669986,
+                        "y": 419.39826666003256,
+                        "px": 123.02930147788759,
+                        "py": 419.33465628500204
+                    },
+                    {
+                        "media": "Revenge of the Sith",
+                        "label": "Beru Whitesun lars",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 19,
+                        "weight": 6,
+                        "x": 202.97975964517016,
+                        "y": 384.2706700784437,
+                        "px": 203.00747339218833,
+                        "py": 384.2180049566348
+                    },
+                    {
+                        "media": "Revenge of the Sith",
+                        "label": "Obi-Wan Kenobi",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 20,
+                        "weight": 6,
+                        "x": 160.04959706066631,
+                        "y": 499.1482863794011,
+                        "px": 160.13707462865915,
+                        "py": 498.9922860474656
+                    },
+                    {
+                        "media": "Revenge of the Sith",
+                        "label": "Yoda",
+                        "label_display": "center",
+                        "shape": "circle",
+                        "shape_attrs": {
+                            "r": 15
+                        },
+                        "value": null,
+                        "index": 21,
+                        "weight": 6,
+                        "x": 240.2786301856435,
+                        "y": 465.2300258605685,
+                        "px": 240.2741134713786,
+                        "py": 465.07518118510086
+                    }
+                ],
+                "preserve_domain": {},
+                "scales": {},
+                "scales_metadata": {
+                    "x": {
+                        "orientation": "horizontal",
+                        "dimension": "x"
+                    },
+                    "y": {
+                        "orientation": "vertical",
+                        "dimension": "y"
+                    },
+                    "color": {
+                        "dimension": "color"
+                    },
+                    "link_color": {
+                        "dimension": "link_color"
+                    }
+                },
+                "selected": [],
+                "selected_style": {},
+                "tooltip": "IPY_MODEL_0c0ed100332c4f6aa63cb50133e48a72",
+                "tooltip_location": "mouse",
+                "tooltip_style": {
+                    "opacity": 0.9
+                },
+                "unhovered_style": {},
+                "unselected_style": {},
+                "visible": true,
+                "x": {
+                    "values": [],
+                    "type": "float"
+                },
+                "y": {
+                    "values": [],
+                    "type": "float"
+                }
+            }
+        },
+        "7288979672bb42fcbafb9af9d7a4e685": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.1.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "643c6e8cd15d4a68a2e0d1cf1156578c": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "f36537f98c8e4cc1a0d1f7b452f664b1": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "71dedfa0e9004a12b5bff5fd1c3ab082": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.4.1",
+            "state": {
+                "_dom_classes": [],
+                "_model_module_version": "^0.4.1",
+                "_view_module_version": "^0.4.1",
+                "layout": "IPY_MODEL_7288979672bb42fcbafb9af9d7a4e685",
+                "marks": [
+                    "IPY_MODEL_40851ed1c37c4fcfadd6e72f89ddfb0b"
+                ],
+                "scale_x": "IPY_MODEL_643c6e8cd15d4a68a2e0d1cf1156578c",
+                "scale_y": "IPY_MODEL_f36537f98c8e4cc1a0d1f7b452f664b1"
+            }
+        }
+    }
+}
